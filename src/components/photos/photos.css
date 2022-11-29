@@ -1,0 +1,43 @@
+.photo{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    flex-direction: row;
+}
+
+.photoItems{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    position: relative;
+}
+
+.photoMeasure {
+    height: 152px;
+    width: 199px;
+}
+
+.heart{
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+
+.personName{
+    position: absolute;
+    color: rgb(255, 255, 255, 0.9);
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24px;
+    bottom: 16px;
+    left: 35px;
+}
+
+.videoButton{
+    position: absolute;
+    top: 46px;
+    right: 73px;
+
+}

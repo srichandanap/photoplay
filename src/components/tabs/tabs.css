@@ -1,0 +1,60 @@
+.lowerScreen{
+    padding-left: 18rem;
+    padding-right: 18rem;
+}
+
+.tabsPart {
+    padding-top: 2rem;
+}
+
+.tabItems {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(39, 106, 160, 0.3);
+
+}
+
+.tabLeft>.active {
+    border-bottom: 2px solid #E81244;
+    padding-bottom: 0.8rem;
+    color: #E81244;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 21px;
+
+}
+
+.tabRight>.active {
+    border-bottom: 2px solid #E81244;
+    padding-bottom: 1rem;
+    color: #E81244;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 21px;
+}
+
+.tabLeft {
+    display: flex;
+    gap: 3rem;
+}
+
+.tabRight{
+    display: flex;
+}
+
+.tab {
+    opacity: 0.5;
+    color: #230735;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-align: center;
+    text-decoration: none;
+}
+

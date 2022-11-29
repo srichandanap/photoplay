@@ -1,0 +1,21 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    box-shadow: 0 1px 0 0 #A7A8A9;
+    padding: 1.98rem;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+.footerContent{
+    color: #BABABA;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-align: center;
+}

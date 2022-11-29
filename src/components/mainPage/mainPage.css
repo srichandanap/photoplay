@@ -1,0 +1,102 @@
+
+.maskImage{
+   height: 325px;
+   width: 100%;
+   margin: auto;
+   background-image: url('../../assets/Mask.png');
+   background-position: top;
+}
+
+.background{
+    width: 100%;
+    position: relative;
+ 
+}
+
+.imageContent{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 18rem;
+
+}
+
+.imageText{
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    gap: 0.75rem;
+    padding-top: 3rem;
+
+}
+
+
+.lineOne{
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 35px;
+  text-align: center;
+}
+
+.lineTwo{
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.searchInput{
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    padding: 0.85rem 0.75rem;
+    width: 39rem;
+    outline: none;
+    border: none;
+    font-weight: 400;
+ 
+}
+
+.searchButton{
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.32px;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #560014;
+    padding: 0.6rem 0.97rem;
+    position: absolute;
+    left: 33.2rem;
+    top: 2.2px;
+}
+
+.searchPosition{
+    position: relative;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+}
+
+.searchInput::placeholder{
+    opacity: 0.53;
+    color: #2F2F2F;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
