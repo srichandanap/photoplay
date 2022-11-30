@@ -4,13 +4,13 @@ import './newHeader.css'
 const NewHeader = () => {
     return (
         <>
-            <div className="header">
+            <div className="newHeader">
                 <div className="brownLogo">
                     <img src={require("../../assets/brownLogo.png")} alt="image" />
                 </div>
-                <div className='searchPosition'>
-                    <input type="text" placeholder='Search photos, videos, artists' className='searchInput' />
-                    <button className='searchButton'>SEARCH</button>
+                <div className='searchNewPosition'>
+                    <input type="text" placeholder='Search photos, videos, artists' className='searchInputNew' />
+                    <button className='searchButtonNew'>SEARCH</button>
                 </div>
             </div>
         </>

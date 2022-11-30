@@ -11,22 +11,24 @@ const Tabs = () => {
     return (
         <>
             <div className='lowerScreen'>
-                <div className="tabsPart">
-                    <div className="tabItems">
-                        <div className="tabLeft">
-                            <NavLink to="/photo" className='tab'>Photos</NavLink>
-                            <NavLink to="/video" className='tab'>Videos</NavLink>
-                        </div>
-                        <div className="tabRight">
-                            <NavLink to="/fav" className='tab'>Favourites</NavLink>
+                <div className='t'>
+                    <div className="tabsPart">
+                        <div className="tabItems">
+                            <div className="tabLeft">
+                                <NavLink to="/" className='tab'>Photos</NavLink>
+                                <NavLink to="/video" className='tab'>Videos</NavLink>
+                            </div>
+                            <div className="tabRight">
+                                <NavLink to="/fav" className='tab'>Favourites</NavLink>
+                            </div>
                         </div>
                     </div>
+                    <Routes>
+                        <Route path="/" element={<Photos />} />
+                        <Route path="/video" element={<VideosTab />} />
+                        <Route path="/fav" element={<Favourites />} />
+                    </Routes>
                 </div>
-                <Routes>
-                    <Route path="/photo/*" element={<Photos />} />
-                    <Route path="/video" element={<VideosTab />} />
-                    <Route path="/fav" element={<Favourites />} />
-                </Routes>
             </div>
         </>
     )

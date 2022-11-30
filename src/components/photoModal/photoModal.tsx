@@ -2,16 +2,18 @@ import React from 'react'
 import Footer from '../footer/footer'
 import './photoModal.css'
 
-const PhotoModal = (props: any) => {
+const PhotoModal = () => {
+      
+       
     return (
         <>
-            <div className="header">
-                <div className="brownLogo">
+            <div className="headerModal">
+                <div className="brownLogoModal">
                     <img src={require("../../assets/brownLogo.png")} alt="image" />
                 </div>
-                <div className='searchPosition'>
-                    <input type="text" placeholder='Search photos, videos, artists' className='searchInput' />
-                    <button className='searchButton'>SEARCH</button>
+                <div className='searchPositionModal'>
+                    <input type="text" placeholder='Search photos, videos, artists' className='searchInputModal' />
+                    <button className='searchButtonModal'>SEARCH</button>
                 </div>
             </div>
             <div className="displayPhoto">

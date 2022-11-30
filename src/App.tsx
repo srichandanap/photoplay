@@ -10,12 +10,12 @@ import NewHeader from './components/newHeader/newHeader';
 function App() {
   return (
     <>
-    {/* <NewHeader /> */}
+   {/* <FirstScreen /> */}
       <Routes>
 
 <Route path="/*" element={<FirstScreen />} />
 <Route path="/PM" element={<PhotoModal />} />
-<Route path="/VM" element={<PhotoModal />} />
+<Route path="/video/VM" element={<PhotoModal />} />
 </Routes>
 
         

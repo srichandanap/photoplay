@@ -1,15 +1,18 @@
-.header{
+.newHeader{
     background-color: #F3F3F3;
     padding: 3rem;
     display: flex;
     justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
-.searchPosition{
+.searchNewPosition{
     position: relative;
 }
 
-.searchInput{
+.searchInputNew{
     border-radius: 6px;
     background-color: #FFFFFF;
     box-sizing: border-box;
@@ -30,7 +33,7 @@
     line-height: 24px;
 }
 
-.searchButton {
+.searchButtonNew {
     color: #FFFFFF;
     font-family: Roboto;
     font-size: 14px;

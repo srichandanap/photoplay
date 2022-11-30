@@ -1,20 +1,22 @@
-.photo{
+.photo {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 2rem;
+    padding-top: 9rem;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .photoItems{
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
     position: relative;
 }
 
 .photoMeasure {
     height: 152px;
-    width: 199px;
+    width: 195px;
 }
 
 .heart{

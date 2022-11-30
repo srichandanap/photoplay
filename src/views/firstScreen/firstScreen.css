@@ -1,0 +1,88 @@
+@media only screen and (max-width: 1230px) {
+   .searchInput{
+    width: 25rem;
+   
+   }
+
+   .searchInputNew{
+      width: 25rem;
+     
+     }
+
+   .searchInput::placeholder{
+      padding: 1rem 1.5rem;
+   }
+
+   .imageContent{
+      /* padding: 2rem 14rem; */
+   }
+
+   .imageText{
+      padding-top:2.5rem;
+   }
+
+   .searchButton{
+      display: none;
+   }
+   
+   .searchMobile {
+      display: block;
+      position: absolute;
+      top: 13px;
+      left: 10px;
+  }
+
+ /* .maskImage{
+   height: 355px!important;
+ } */
+  
+  
+}
+
+@media only screen and (max-width: 951px){
+   .t{
+      width: 75%;
+   }
+
+   .tabItems{
+    width: 75%;
+
+   }
+
+   .photoMeasure {
+      height: 142px;
+      width: 185px;
+  }
+}
+
+@media only screen and (max-width: 579px){
+   .lineOne {
+
+      font-size: 24px;
+      line-height: 28px;
+   }
+
+   .lineTwo {
+         font-size: 14px;
+         font-weight: 300;
+   }
+
+   .searchInput{
+      width: 20rem;
+     
+   }
+  
+   .searchInputNew{
+        width: 20rem;
+       
+   }
+
+   .logoMobileImage{
+      display: block;
+   }
+
+   .logoImage{
+      display: nonee;
+   }
+       
+}
