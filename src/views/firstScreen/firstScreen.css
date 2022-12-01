@@ -1,61 +1,72 @@
 @media only screen and (max-width: 1230px) {
-   .searchInput{
-    width: 25rem;
-   
-   }
-
-   .searchInputNew{
+   .searchInput {
       width: 25rem;
-     
-     }
+      padding: 0.85rem 1rem;
 
-   .searchInput::placeholder{
-      padding: 1rem 1.5rem;
    }
 
-   .imageContent{
+   .searchInputNew {
+      width: 25rem;
+
+   }
+
+   .searchInput::placeholder {
+      padding: 1rem 0.75rem;
+   }
+
+   .imageContent {
       /* padding: 2rem 14rem; */
    }
 
-   .imageText{
-      padding-top:2.5rem;
+   .imageText {
+      padding-top: 2.5rem;
    }
 
-   .searchButton{
+   .searchButton {
       display: none;
    }
-   
+
    .searchMobile {
       display: block;
       position: absolute;
       top: 13px;
       left: 10px;
-  }
+   }
 
- /* .maskImage{
+   /* .maskImage{
    height: 355px!important;
  } */
-  
-  
+
+
 }
 
-@media only screen and (max-width: 951px){
-   .t{
+@media only screen and (max-width: 951px) {
+   .t {
       width: 75%;
    }
 
-   .tabItems{
-    width: 75%;
+   .tabItems {
+      width: 75%;
 
    }
 
    .photoMeasure {
       height: 142px;
       width: 185px;
-  }
+   }
+
+   .searchInput {
+      padding: 0.85rem 2.2rem !important;
+
+   }
+
+   .searchInput::placeholder {
+      padding: 1rem 0.25rem !important;
+   }
+
 }
 
-@media only screen and (max-width: 579px){
+@media only screen and (max-width: 579px) {
    .lineOne {
 
       font-size: 24px;
@@ -63,26 +74,71 @@
    }
 
    .lineTwo {
-         font-size: 14px;
-         font-weight: 300;
+      font-size: 14px;
+      font-weight: 300;
    }
 
-   .searchInput{
+   .searchInput {
       width: 20rem;
-     
-   }
-  
-   .searchInputNew{
-        width: 20rem;
-       
+      padding: 0.85rem 2rem;
+
    }
 
-   .logoMobileImage{
+   .searchInputNew {
+      width: 20rem;
+
+   }
+
+   .logoMobileImage {
       display: block;
+      padding-top: 2rem;
    }
 
-   .logoImage{
-      display: nonee;
+   .logoImage {
+      display: none;
    }
-       
+
+   .tabLeft {
+      gap: 1.5rem;
+   }
+
+
+}
+
+@media only screen and (max-width: 516px) {
+
+   .photo {
+      flex-direction: column !important;
+      align-items: unset !important;
+      justify-content: unset !important;
+      gap: 0.75rem !important;
+      width: 100% !important;
+      padding: 120px 14px 0px 14px !important;
+   }
+
+   .photoItems {
+      display: block !important;
+   }
+
+   .photoMeasure {
+      width: 100% !important;
+   }
+
+   .t {
+      width: 100% !important;
+   }
+
+   .tabItems {
+      width: 100% !important;
+
+   }
+
+   .tabLeft {
+      padding-left: 16px !important;
+   }
+
+   .tabRight {
+      padding-right: 16px !important;
+   }
+
 }
